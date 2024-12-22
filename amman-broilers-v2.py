@@ -67,7 +67,6 @@ class BillingSystem:
         self.total_label = tk.Label(self.root, text="Total: INR 0", font=("Arial", 14, 'bold'))
         self.total_label.pack(pady=20)
 
-        # Buttons (Aligned in a vertical stack with consistent size)
         self.add_button = tk.Button(self.root, text="Add to Bill", font=("Arial", 14, 'bold'), bg="#4CAF50", fg="white", relief="flat", command=self.add_to_bill)
         self.add_button.pack(pady=10, fill=tk.X, padx=50)
 
