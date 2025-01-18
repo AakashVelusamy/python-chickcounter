@@ -115,10 +115,10 @@ class BillingSystem:
         pdf = FPDF()
         pdf.add_page()
 
-        pdf.set_font("Arial", size=16, style='B')
+        pdf.set_font("Helvetica", size=16, style='B')
         pdf.cell(200, 10, txt="Amman Broilers", ln=True, align='C')
-        pdf.set_font("Arial", size=12, style='B')
-        pdf.cell(200, 10, txt="***** BILL *****", ln=True, align='C')
+        pdf.set_font("Helvetica", size=12, style='B')
+        pdf.cell(200, 10, txt="BILL", ln=True, align='C')
         pdf.ln(10)
 
         pdf.set_font("Arial", size=12, style='B')
