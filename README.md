@@ -21,7 +21,7 @@ The **BroilerBillz** is an efficient tool designed to streamline the billing pro
 - **Error Handling:**  
   Provides helpful error messages for missing or incorrect inputs, ensuring smooth operation and reducing mistakes.
 
-## Technology Stack
+## Libraries Used
   - Tkinter for the user interface  
   - FPDF for PDF generation  
   - OpenPyXL for Excel data handling  
